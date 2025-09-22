@@ -1,0 +1,46 @@
+Algorithm,Step,Page,Frames,Page Fault
+FIFO,1,4,4,Yes
+FIFO,2,8,4 8,Yes
+FIFO,3,5,4 8 5,Yes
+FIFO,4,1,4 8 5 1,Yes
+FIFO,5,5,4 8 5 1,No
+FIFO,6,5,4 8 5 1,No
+FIFO,7,9,8 5 1 9,Yes
+FIFO,8,3,5 1 9 3,Yes
+FIFO,9,9,5 1 9 3,No
+FIFO,10,6,1 9 3 6,Yes
+FIFO,11,9,1 9 3 6,No
+FIFO,12,6,1 9 3 6,No
+FIFO,13,9,1 9 3 6,No
+FIFO,14,1,1 9 3 6,No
+FIFO,15,2,9 3 6 2,Yes
+LRU,1,4,4,Yes
+LRU,2,8,4 8,Yes
+LRU,3,5,4 8 5,Yes
+LRU,4,1,4 8 5 1,Yes
+LRU,5,5,4 8 5 1,No
+LRU,6,5,4 8 5 1,No
+LRU,7,9,8 5 1 9,Yes
+LRU,8,3,5 1 9 3,Yes
+LRU,9,9,5 1 9 3,No
+LRU,10,6,5 9 3 6,Yes
+LRU,11,9,5 9 3 6,No
+LRU,12,6,5 9 3 6,No
+LRU,13,9,5 9 3 6,No
+LRU,14,1,9 3 6 1,Yes
+LRU,15,2,9 6 1 2,Yes
+Optimal,1,4,4,Yes
+Optimal,2,8,4 8,Yes
+Optimal,3,5,4 8 5,Yes
+Optimal,4,1,4 8 5 1,Yes
+Optimal,5,5,4 8 5 1,No
+Optimal,6,5,4 8 5 1,No
+Optimal,7,9,8 5 1 9,Yes
+Optimal,8,3,5 1 9 3,Yes
+Optimal,9,9,5 1 9 3,No
+Optimal,10,6,1 9 3 6,Yes
+Optimal,11,9,1 9 3 6,No
+Optimal,12,6,1 9 3 6,No
+Optimal,13,9,1 9 3 6,No
+Optimal,14,1,1 9 3 6,No
+Optimal,15,2,9 3 6 2,Yes
